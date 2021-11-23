@@ -7,6 +7,7 @@
 }
 
 body {
+    width: 100%;
     height: 100vh;
     font-family: 'Shippori Antique', sans-serif;
 }
@@ -87,14 +88,13 @@ main{
 }
 
 #main-content-home-page {
-    padding: 30px 0 15px 0;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
 #main-text-cont {
-    height: 100vh;
+    padding: 15px;
+    height: auto;
     width: 50%;
 }
 
@@ -109,11 +109,12 @@ main{
 }
 
 #main-text-cont h2 {
+    margin-top: 40px;
     color: rgb(2, 26, 97);
     background-color: white;
     border-radius: 5px;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #text-title-home-main-content span{
@@ -121,11 +122,36 @@ main{
 }
 
 #main-content-images {
+    /*background-color: darkgreen;*/
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     width: 50%;
     justify-content: center;
-    height: 100vh;
+    height: auto;
+}
+
+#flag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+#flag-container img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 30%;
+    min-width: 200px;
+    height: auto;
+    transition: .5s;
+}
+
+#flag-container img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 #images-group {
