@@ -115,9 +115,10 @@ main{
     margin-bottom: 15px;
 }
 
-#main-content-images {
+#main-content-flag-list {
+    background-color: darkslategray;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     width: 50%;
     justify-content: center;
@@ -133,31 +134,28 @@ main{
     height: auto;
 }
 
-#flag-container ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+#list-container ul {
     border-radius: 10px;
     list-style-type: none;
-    min-width: 100%;
+    max-width: 100%;
     height: auto;
+    background-color: rgb(188, 190, 31);
+    flex-wrap: wrap;
+    padding: 10px 0 10px 0;
 }
 
-#flag-container ul li {
+#list-container li {
     border: .5px solid rgba(255, 255, 255, 0.452);
     color: white;
-    font-size: 1.5em;
-    padding: 5px 10px;
-    margin: 5px;
     background-color: rgb(2, 26, 97);
     border-radius: 10px;
-    min-width: 100px;
+    padding: 10px;
+    margin: 5px;
 }
 
 #flag-container img{
     background-color: rgb(255, 255, 255);
+    background-color: darkolivegreen;
     border-radius: 10px;
     padding: 10px;
     max-width: 70%;
