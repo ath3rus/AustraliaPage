@@ -8,6 +8,7 @@
 
 body {
     height: 100vh;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 #nav-menu-cont {
@@ -93,16 +94,37 @@ main{
 }
 
 #main-text-cont {
-    background-color: yellowgreen;
     height: 100vh;
     width: 50%;
 }
 
+#main-text-cont p, h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: calc(0.7em + 0.9vw);  
+}
+
+#main-text-cont p {
+    color: white;
+}
+
+#main-text-cont h2 {
+    color: rgb(2, 26, 97);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#text-title-home-main-content span{
+    background-color: yellow;
+}
+
 #main-content-images {
-    background-color: tomato;
     position: relative;
     display: flex;
     width: 50%;
+    justify-content: center;
     height: 100vh;
 }
 
@@ -121,7 +143,7 @@ main{
 
 #image1 {
     width: 50%;
-    min-height: 50%;
+    max-height: 50%;
     flex: 1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -130,7 +152,7 @@ main{
 
 #image3 {
     width: 50%;
-    min-height: 50%;
+    max-height: 50%;
     flex: 1;
     background-size: contain;
     background-repeat: no-repeat;
