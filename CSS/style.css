@@ -108,7 +108,7 @@ main{
 
 #main-text-cont h2 {
     margin-top: 40px;
-    color: rgb(0, 0, 0);
+    color: #001a4d;
     background-color: white;
     border-radius: 5px;
     padding: 5px;
@@ -169,40 +169,58 @@ main{
 #main-second-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: aqua;
-    height: 50vh;
+    justify-content: space-around;
+    height: 60vh;
     border-radius: 5px;
 }
 
 #images-group {
-    background-color: black;
-    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("/imagens/original-95ba7bf3b1d31497abc528a3805ad2f0-1024x682.jpeg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 5px 0px 10px;
 }
 
 #text-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
-    padding: 15px;
+    height: 100%;
+    padding: 10px;
     border-radius: 5px;
-    margin: 0px 15px 0px 15px;
-    font-size: calc(0.7em + 0.9vw);  
+    font-size: calc(0.8em + 0.9vw);
+    text-align: center;  
+    color: #002776;
+}
+
+#text-group h3 {
+    background-image: url("/imagens/Flag_of_Australia_\(converted\).svg.png");
+    background-position: center;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    color: rgb(0, 0, 0, 0);
+    text-shadow: 0px 0px 1px #0027769d;
 }
 
 #image1{
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    border-radius: 10px;
+   max-height: 100%;
+   max-width: 100%;
 }
 
 #image2 {
     position: absolute;
-    top: 130%;
+    top: 133%;
     left: 25%;
     transform: translate(-50%, -50%);
     z-index: 100;
