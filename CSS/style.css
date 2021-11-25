@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 *{
     padding: 0;
@@ -253,7 +254,7 @@ main{
 .card-vantages {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     text-align: center;
     padding: 5px;
@@ -261,7 +262,10 @@ main{
     flex: 1;
     min-width: 30%;
     height: 50%;
-    background-color: #021A61;
+    background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("/imagens/1200px-Australia_flag_waving_icon.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: unset;
     color: rgb(250, 250, 250);
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
