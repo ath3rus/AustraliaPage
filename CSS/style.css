@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
     padding: 0;
@@ -229,22 +230,24 @@ main{
 
 /*====== Section vantages ========*/
 
+#title-section {
+    color: #002776;
+}
+
 #vantages-container {
     height: 50vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: brown;
 }
 
 #cards-container {
-    background-color: darkorange;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 85%;
+    min-height: auto;
 }
 
 .card-vantages {
@@ -254,9 +257,18 @@ main{
     flex-direction: column;
     text-align: center;
     padding: 5px;
-    margin: 5px;
+    margin: 7px;
     flex: 1;
-    height: auto;
-    background-color: darkolivegreen;
-    font-size: calc(0.6em + 0.7vw);
+    min-width: 30%;
+    height: 50%;
+    background-color: #021A61;
+    color: rgb(250, 250, 250);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.5em + 0.7vw);
+    font-size: max(1vw, 11.5px);
+}
+
+.card-vantages h3 {
+    letter-spacing: 1px;
 }
