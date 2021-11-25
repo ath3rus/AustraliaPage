@@ -218,11 +218,45 @@ main{
    max-width: 100%;
 }
 
-#image2 {
+/*#image2 {
     position: absolute;
     top: 133%;
     left: 25%;
     transform: translate(-50%, -50%);
     z-index: 100;
     max-height: 50%;
+}*/
+
+/*====== Section vantages ========*/
+
+#vantages-container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+}
+
+#cards-container {
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 80%;
+}
+
+.card-vantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    flex: 1;
+    margin: 5px;
+    height: auto;
+    background-color: darkolivegreen;
+    font-size: calc(0.6em + 0.8vw);
 }
