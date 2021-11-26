@@ -265,7 +265,7 @@ main{
     flex: 1;
     min-width: 30%;
     height: auto;
-    min-height: 135px;
+    min-height: 140px;
     background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("../imagens/1200px-Australia_flag_waving_icon.svg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -288,14 +288,16 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: darkred;
-    padding: 5px;
+    flex-wrap: wrap;
     max-width: 100%;
 }
 
 #info-r, #info-l {
-    width: 45%;
+    width: 49%;
+    min-width: 365px;
+    margin: 5px;
     height: 50vh;
+    border-radius: 5px;
 }
 
 #info-r {
@@ -304,7 +306,6 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 5px;
     padding: 2px;
     display: flex;
     align-items: center;
