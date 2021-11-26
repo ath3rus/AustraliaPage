@@ -292,7 +292,7 @@ main{
     max-width: 100%;
 }
 
-#info-r, #info-l {
+.info-r, .info-l {
     width: 49%;
     min-width: 365px;
     margin: 5px;
@@ -300,8 +300,7 @@ main{
     border-radius: 5px;
 }
 
-#info-r {
-    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/original-95ba7bf3b1d31497abc528a3805ad2f0-1024x682.jpeg");
+.info-r {
     background-color: #0027763b;
     background-position: center;
     background-repeat: no-repeat;
@@ -312,11 +311,44 @@ main{
     justify-content: center;
 }
 
-#info-r h1{
+.info-r h1{
     display: block;
-    background-color: #b0b300
+    font-size: 3em;
+    color: white;
 }
 
-#info-l {
-    background-color: darkviolet;
+.info-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #021A61;
+}
+
+.info-l h2 {
+    text-align: center;
+}
+
+#cd-one {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/thumb-1920-458181.jpg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cd-two {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/bird.jpg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cd-three {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/outback.jpg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
