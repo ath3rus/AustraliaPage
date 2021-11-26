@@ -236,6 +236,7 @@ main{
 }
 
 #vantages-container {
+    margin-top: 10px;
     height: 50vh;
     display: flex;
     align-items: center;
