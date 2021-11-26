@@ -184,7 +184,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("/imagens/original-95ba7bf3b1d31497abc528a3805ad2f0-1024x682.jpeg");
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/original-95ba7bf3b1d31497abc528a3805ad2f0-1024x682.jpeg");
     background-color: #0027763b;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ main{
 }
 
 #text-group h3 {
-    background-image: url("/imagens/Flag_of_Australia_\(converted\).svg.png");
+    background-image: url("../imagens/Flag_of_Australia_\(converted\).svg.png");
     background-position: center;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -263,7 +263,7 @@ main{
     flex: 1;
     min-width: 30%;
     height: 50%;
-    background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("/imagens/1200px-Australia_flag_waving_icon.svg.png");
+    background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("../imagens/1200px-Australia_flag_waving_icon.svg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: unset;
