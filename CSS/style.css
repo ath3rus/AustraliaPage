@@ -236,10 +236,11 @@ main{
 }
 
 #vantages-container {
-    margin-top: 10px;
-    height: 50vh;
+    margin: 10px 0px;
+    height: auto;
     display: flex;
     align-items: center;
+    justify-content: first baseline;
     flex-direction: column;
 }
 
@@ -255,14 +256,16 @@ main{
 .card-vantages {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
     padding: 5px;
     margin: 7px;
     flex: 1;
     min-width: 30%;
-    height: 50%;
+    height: auto;
+    min-height: 135px;
     background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("../imagens/1200px-Australia_flag_waving_icon.svg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -276,4 +279,43 @@ main{
 
 .card-vantages h3 {
     letter-spacing: 1px;
+}
+
+
+/*============= travel container ==========*/
+
+#travel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkred;
+    padding: 5px;
+    max-width: 100%;
+}
+
+#info-r, #info-l {
+    width: 45%;
+    height: 50vh;
+}
+
+#info-r {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/original-95ba7bf3b1d31497abc528a3805ad2f0-1024x682.jpeg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-r h1{
+    display: block;
+    background-color: #b0b300
+}
+
+#info-l {
+    background-color: darkviolet;
 }
