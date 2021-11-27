@@ -407,7 +407,6 @@ main{
     align-items: center;
     justify-content: space-around;
     height: 65%;
-    background-color: rgba(173, 216, 230, 0.329);
 }
 
 #newslater-text {
@@ -446,7 +445,6 @@ form {
 }
 
 form input[type="text"], input[type="email"] {
-    background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%);
     width: 60%;
     min-width: 205px;
     height: 15%;
@@ -454,17 +452,26 @@ form input[type="text"], input[type="email"] {
     margin-bottom: 20px;
     border-radius: 5px;
     padding: 5px;
-    border: 3px solid rgb(2, 26, 97);
+    border: 2px solid rgb(2, 26, 97);
+    color: rgb(2, 26, 97);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form input[type="text"], input[type="email"]:focus {
+    outline: none;
 }
 
 #newslater-submit {
     padding: 5px;
-    width: 30%;
+    min-width: 30%;
     background-color: #021A61;
     border-radius: 5px;
     border: 1px solid white;
     color: white;
     cursor: pointer;
+    background: rgb(2,26,97);
+    background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%); 
     transition: .2s;
 }
 
