@@ -290,13 +290,11 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 100%;
-    background-color: tomato;
 }
 
 .info-r, .info-l {
     width: 49%;
-    margin: 5px;
-    height: 50vh;
+    height: 100%;
     border-radius: 5px;
 }
 
@@ -315,6 +313,7 @@ main{
     display: block;
     font-size: 3em;
     color: white;
+    text-align: center;
 }
 
 .info-l {
@@ -367,4 +366,28 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#trav-horiz-sec-one {
+    height: 50vh;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#trav-horiz-sec-two {
+    height: 50vh;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#trav-horiz-sec-three {
+    height: 50vh;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
