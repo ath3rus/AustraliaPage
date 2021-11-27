@@ -290,11 +290,11 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 100%;
+    background-color: tomato;
 }
 
 .info-r, .info-l {
     width: 49%;
-    min-width: 365px;
     margin: 5px;
     height: 50vh;
     border-radius: 5px;
@@ -321,9 +321,25 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    color: #021A61;
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
+
+#if-one {
+    background-image:  linear-gradient(90deg, rgba(0, 8, 34, 0.582) 0%, rgba(0, 57, 85, 0.582) 0%),  url("../imagens/praia.jpg");
+}
+
+#if-two {
+    background-image:  linear-gradient(90deg, rgba(0, 8, 34, 0.582) 0%, rgba(0, 57, 85, 0.582) 0%),  url("../imagens/mppw21.jpg");
+}
+
+#if-three {
+    background-image:  linear-gradient(90deg, rgba(0, 8, 34, 0.582) 0%, rgba(0, 57, 85, 0.582) 0%),  url("../imagens/deserto.jpg");
+}
+
 
 .info-l h2 {
     text-align: center;
