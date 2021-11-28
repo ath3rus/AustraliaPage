@@ -562,26 +562,30 @@ footer {
 
 #footer-main-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 #links-uteis-container {
     color: yellowgreen;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
 }
 
 #links-uteis-tables {
     display: flex;
-    width: 80%;
-    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #links-uteis-tables ul {
     list-style-type: none;
-    width: 100%;
+    max-width: 45%;
+    margin: 0px 12px;
 }
 
 #links-uteis-tables ul li {
@@ -591,24 +595,43 @@ footer {
 #links-uteis-tables ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: calc(0.5em + 0.7vw);
 }
 
 #redes-sociais-container {
     color: yellowgreen;
-    background-color: brown;
-    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+#redes-sociais-container ul {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #redes-sociais-container ul li {
+    max-width: 155px;
+    height: auto;
     list-style-type: none;
     line-height: 25px;
 }
 
-#redes-sociais-container ul li a{
-    color: white;
+#redes-sociais-container ul li a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#redes-sociais-container ul li a, i{
+    margin: 0px 4px;
+    color: white; 
     text-decoration: none;
-    font-size: 20px;
+    font-size: calc(0.6em + 0.8vw);
 }
 
 #footer-logo {
