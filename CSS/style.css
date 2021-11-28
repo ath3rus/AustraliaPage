@@ -399,7 +399,7 @@ main{
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 97vh;
 }
 
 #newslater {
@@ -632,6 +632,12 @@ footer {
     color: white; 
     text-decoration: none;
     font-size: calc(0.6em + 0.8vw);
+    transition: .2s;
+}
+
+#redes-sociais-container ul li a, i:hover{
+    color: rgb(193, 212, 255);
+    transform: scale(1.05);
 }
 
 #footer-logo {
@@ -643,4 +649,28 @@ footer {
 
 #footer-logo img {
     max-width: 100%;
+}
+
+#cprt-cont {
+    color: white;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.4em + 0.6vw);
+    letter-spacing: 1px;
+}
+
+#copyrigth {
+    margin: 10px;
+}
+
+#author a{
+    text-decoration: none;
+    color: yellowgreen;
+    transition: .2s;
+}
+
+#author a:hover{
+    color: yellow;
 }
