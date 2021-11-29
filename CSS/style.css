@@ -400,6 +400,7 @@ main{
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 5px;
     height: 97vh;
 }
 
@@ -486,7 +487,7 @@ form input[type="text"], input[type="email"]:focus {
 /*=======div table=======*/
 
 #table-container {
-    padding: 0px 10px;
+    padding: 0px 10px 0px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -660,16 +661,16 @@ footer {
 
 #cprt-cont {
     color: white;
-    margin-bottom: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     font-size: calc(0.4em + 0.6vw);
     letter-spacing: 1px;
+    margin-top: 21px;
 }
 
 #copyrigth {
-    margin: 10px;
+    margin: 0px 10px 0px 0px;
 }
 
 #author a{
