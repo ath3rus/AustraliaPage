@@ -209,6 +209,7 @@ main{
     background-image: url("../imagens/Flag_of_Australia_\(converted\).svg.png");
     background-position: center;
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     color: rgb(0, 0, 0, 0);
     text-shadow: 0px 0px 1px #0027769d;
