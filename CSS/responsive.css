@@ -1,5 +1,36 @@
-@media screen and (max-width: 600px) {
-    body {
-        background-color: chartreuse;
+@media screen and (max-width: 550px) {
+    #nav-menu-cont {
+        max-width: 100%;
+        height: auto;
+        padding: 1%;
+        flex-wrap: nowrap;
     }
+
+    #main-logo {
+        max-width: 100px;
+        min-height: 120px;
+        margin-left: 2%;
+    }
+
+    #nav-menu-list {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 0;
+        width: 75%;
+    }
+
+    #nav-menu-list ul {
+        max-width: 100%;
+    }
+
+    #nav-menu-list ul li {
+        margin: 4px;
+        padding: 7px;
+    }
+
+    /*=========== main ===========*/
+
+    
+
 }
