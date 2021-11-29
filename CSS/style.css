@@ -396,7 +396,7 @@ main{
 /*=======final section============*/
 
 #final-section {
-    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/nef.jpg");
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/rfp5LQl.jpeg");
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -404,6 +404,7 @@ main{
 }
 
 #newslater {
+    background: linear-gradient(336deg, rgba(2, 26, 97, 0.432) 0%, rgba(0, 59, 88, 0.445) 20%); 
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -443,7 +444,7 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(336deg, rgba(2, 26, 97, 0.432) 0%, rgba(0, 59, 88, 0.445) 20%); 
+    background: linear-gradient(336deg, rgba(0, 0, 0, 0.432) 0%, rgba(1, 13, 19, 0.445) 20%); 
     border-radius: 5px;
 }
 
@@ -558,8 +559,8 @@ form input[type="text"], input[type="email"]:focus {
 /*==========footer============== */
 
 footer {
-    background: linear-gradient(336deg, rgba(2, 26, 97, 0.432) 0%, rgba(0, 59, 88, 0.445) 20%); 
-    height: 33vh;
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%);
+    height: 33.9vh;
 }
 
 #footer-main-container {
