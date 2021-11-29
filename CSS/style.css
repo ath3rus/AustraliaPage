@@ -507,6 +507,7 @@ form input[type="text"], input[type="email"]:focus {
     background-image: url("../imagens/Flag_of_Australia_\(converted\).svg.png");
     background-position: center;
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     color: rgb(0, 0, 0, 0);
     text-shadow: 0px 0px 1px #0027769d;
@@ -596,6 +597,10 @@ footer {
     color: white;
     text-decoration: none;
     font-size: calc(0.5em + 0.7vw);
+}
+
+#links-uteis-tables ul li a:hover {
+    color: rgb(170, 172, 255);
 }
 
 #redes-sociais-container {
