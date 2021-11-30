@@ -387,7 +387,7 @@ main{
 
 #trav-horiz-sec-three {
     height: 50vh;
-    padding: 5px 0px;
+    margin-top: -5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -577,7 +577,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 40%;
+    min-width: 40%;
 }
 
 #links-uteis-tables {

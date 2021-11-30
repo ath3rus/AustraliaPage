@@ -119,8 +119,8 @@
     }
 
     #trav-horiz-sec-three {
-        flex-wrap: wrap-reverse;
-        margin-top: 5px;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
     }
     
     #cd-three {
@@ -130,7 +130,7 @@
     /*===== final section =====*/
 
     #final-section {
-        height: auto;
+        min-height: 114vh;
         margin-top: 0;
     }
 
@@ -188,13 +188,16 @@
     }
 
     #links-uteis-container {
+        font-size: 1.5em;
         width: 95%;
         height: auto;
+        margin-bottom: 15px;
     }
 
     #links-uteis-tables ul {
         text-align: center;
-        max-width:60%;
+        margin: 0;
+        width: 95%;
     }
 
     #redes-sociais-container {
@@ -202,14 +205,19 @@
         padding-bottom: 5px;
     }
 
+    #redes-sociais-container ul li a, i {
+        font-size: 1em;
+    }
+
     #footer-logo {
         min-width: 25%;
-        margin-top: 10px;
+        margin: 20px 0px;
         height: auto;
         padding-bottom: 1px;
     }
 
     #cprt-cont {
+        font-size: .6em;
         margin-top: 0;
     }
 
