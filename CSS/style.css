@@ -568,6 +568,8 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
+    height: 85%;
 }
 
 #links-uteis-container {
@@ -662,11 +664,10 @@ footer {
 #cprt-cont {
     color: white;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     font-size: calc(0.4em + 0.6vw);
     letter-spacing: 1px;
-    margin-top: 21px;
 }
 
 #copyrigth {

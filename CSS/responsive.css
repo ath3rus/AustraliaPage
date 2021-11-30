@@ -73,4 +73,145 @@
         margin-bottom: 10px;
     }
 
+/*=======div table=======*/
+
+    #table-container {
+    flex-wrap: wrap;
+    }
+
+
+    #text-title-table {
+        padding: 0;
+        width: 100%;
+    }
+
+    #div-table {
+        height: auto;
+    }
+
+    #div-table table {
+        width: 100%;
+        height: auto;
+    }
+
+    /*====== travel-container =======*/
+
+    #travel-container {
+        flex-wrap: wrap;
+    }
+
+    #trav-horiz-sec-one {
+        flex-wrap: wrap;
+    }
+
+    #trav-horiz-sec-two {
+        flex-wrap: wrap-reverse;
+        margin-top: 5px;
+    }
+
+    .info-r, .info-l {
+        width: 95%;
+        height: 50%;
+    }
+
+    .info-r {
+        margin-bottom: 5px;
+    }
+
+    #trav-horiz-sec-three {
+        flex-wrap: wrap-reverse;
+        margin-top: 5px;
+    }
+    
+    #cd-three {
+        margin-top: 5PX;
+    }
+
+    /*===== final section =====*/
+
+    #final-section {
+        height: auto;
+        margin-top: 0;
+    }
+
+    #newslater {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #newslater-text, #newslater-form {
+        width: 95%;
+        height: auto;
+    }
+
+    #newslater-text h1 {
+        margin: 7px 0 0 0;
+    }
+
+    #newslater-form {
+        margin: 5px 0px;
+    }
+
+    form {
+        padding: 10px 0px;
+    }
+
+    form input[type="text"], input[type="email"] {
+        width: 95%;
+    }
+
+    #newslater-submit {
+        width: 50%;
+        padding: 3px;
+
+    }
+
+    #newslater-text {
+        margin: 0;
+    }
+
+    #footer-main-container {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    footer {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #links-uteis-container {
+        width: 95%;
+        height: auto;
+    }
+
+    #links-uteis-tables ul {
+        text-align: center;
+        max-width:60%;
+    }
+
+    #redes-sociais-container {
+        width: 95%;
+        padding-bottom: 5px;
+    }
+
+    #footer-logo {
+        min-width: 25%;
+        margin-top: 10px;
+        height: auto;
+        padding-bottom: 1px;
+    }
+
+    #cprt-cont {
+        background-color: ;
+        margin-top: 0;
+    }
+
 }
