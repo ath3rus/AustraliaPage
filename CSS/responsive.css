@@ -7,9 +7,9 @@
     }
 
     #main-logo {
-        max-width: 100px;
+        max-width: 95px;
         min-height: 120px;
-        margin-left: 2%;
+        margin-left: 1%;
     }
 
     #nav-menu-list {
@@ -21,6 +21,8 @@
     }
 
     #nav-menu-list ul {
+        flex-wrap: nowrap;
+        width: 5%;
         max-width: 100%;
     }
 
@@ -31,6 +33,44 @@
 
     /*=========== main ===========*/
 
-    
+    #main-content-home-page  {
+        flex-wrap: wrap-reverse;
+    }
+
+    #main-text-cont {
+        width: 100%;
+    }
+
+    #main-text-cont p, h2 {
+        text-align: center;
+    }
+
+    #main-content-flag-list  {
+        width: 100%;
+    }
+
+    #flag-container {
+        margin-top: 25px;
+    }
+
+    /*========== second-main =========*/
+
+    #main-second-container {
+        flex-wrap: wrap-reverse;
+        height: auto;
+    }
+
+    #images-group {
+        min-width: 95%;
+        height: 50vh;
+        margin: 0;
+    }
+
+    #text-group {
+        padding: 0;
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
 }
