@@ -43,6 +43,12 @@
 
     #main-text-cont p, h2 {
         text-align: center;
+        font-size: 1.1em;
+    }
+
+    #main-text-cont {
+        padding: 0;
+        margin: 0;
     }
 
     #main-content-flag-list  {
@@ -51,6 +57,26 @@
 
     #flag-container {
         margin-top: 25px;
+    }
+
+    /*======= vantagens container ========== */
+
+    #vantages-container {
+        margin: 0;
+    }
+
+    #title-section {
+        font-size: 1.3em;
+    }
+
+    .card-vantages {
+        min-width: 45%;
+    }
+
+    /*========== opera house sec =======*/
+
+    #text-group {
+        font-size: 1.1em;
     }
 
     /*========== second-main =========*/
@@ -81,6 +107,7 @@
 
 
     #text-title-table {
+        font-size: 1.3em;
         padding: 0;
         width: 100%;
     }
@@ -109,6 +136,10 @@
         margin-top: 5px;
     }
 
+    .info-l {
+        font-size: .9em;
+    }
+
     .info-r, .info-l {
         width: 95%;
         height: 50%;
@@ -120,17 +151,16 @@
 
     #trav-horiz-sec-three {
         flex-wrap: wrap;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     
     #cd-three {
-        margin-top: 5PX;
+        margin-top: -5px;
     }
 
     /*===== final section =====*/
 
     #final-section {
-        min-height: 114vh;
         margin-top: 0;
     }
 
@@ -149,7 +179,7 @@
     }
 
     #newslater-form {
-        margin: 5px 0px;
+        margin: 0px;
     }
 
     form {
@@ -171,7 +201,8 @@
     }
 
     #footer-main-container {
-        width: 95%;
+        width: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -180,7 +211,7 @@
         height: auto;
     }
     footer {
-        min-height: 60vh;
+        min-height: 65vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -191,18 +222,18 @@
         font-size: 1.5em;
         width: 95%;
         height: auto;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     #links-uteis-tables ul {
+        font-size: 1.1em;
         text-align: center;
         margin: 0;
         width: 95%;
     }
 
     #redes-sociais-container {
-        width: 95%;
-        padding-bottom: 5px;
+        width: 45%;
     }
 
     #redes-sociais-container ul li a, i {
@@ -211,14 +242,17 @@
 
     #footer-logo {
         min-width: 25%;
-        margin: 20px 0px;
+        margin: 0px;
         height: auto;
-        padding-bottom: 1px;
     }
 
     #cprt-cont {
-        font-size: .6em;
-        margin-top: 0;
+        width: 100%;
+        font-size: .8em;
+    }
+
+    #copyrigth {
+        margin: 0px 7px 0px 0px;
     }
 
 }

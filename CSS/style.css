@@ -397,12 +397,10 @@ main{
 /*=======final section============*/
 
 #final-section {
-    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/rfp5LQl.jpeg");
-    background-position:bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(2,26,97);
+    background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%);
     margin-top: 5px;
-    height: 97vh;
+    height: 100%;
 }
 
 #newslater {
@@ -448,6 +446,8 @@ form {
     flex-direction: column;
     background: linear-gradient(336deg, rgba(0, 0, 0, 0.432) 0%, rgba(1, 13, 19, 0.445) 20%); 
     border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
 }
 
 form input[type="text"], input[type="email"] {
@@ -561,27 +561,33 @@ form input[type="text"], input[type="email"]:focus {
 /*==========footer============== */
 
 footer {
-    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%);
+    background: rgb(2,26,97);
+    background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%); 
     height: 33.9vh;
 }
 
 #footer-main-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 85%;
+    height: 99%;
 }
 
 #links-uteis-container {
+    padding: 0;
     color: yellowgreen;
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-width: 40%;
+    text-justify: center;
+    min-width: 43%;
 }
 
 #links-uteis-tables {
+    margin-left: 0;
+    font-size: 1.1em;
+    text-align: center;
     display: flex;
     align-items: flex-start;
     width: 100%;
@@ -616,6 +622,12 @@ footer {
     justify-content: center;
     flex-direction: column;
     width: 20%;
+    margin-left: 10px;
+}
+
+
+#redes-sociais-container h2 {
+    text-align: center;
 }
 
 #redes-sociais-container ul {
@@ -639,7 +651,8 @@ footer {
 }
 
 #redes-sociais-container ul li a, i{
-    margin: 0px 4px;
+    max-width: 95%;
+    margin: 3px;
     color: white; 
     text-decoration: none;
     font-size: calc(0.6em + 0.8vw);
@@ -655,7 +668,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 35%;
 }
 
 #footer-logo img {
@@ -663,12 +676,14 @@ footer {
 }
 
 #cprt-cont {
+    margin-top: 10px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: calc(0.4em + 0.6vw);
+    font-size: calc(0.5em + 0.6vw);
     letter-spacing: 1px;
+    text-align: center;
 }
 
 #copyrigth {
