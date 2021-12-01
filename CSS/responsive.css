@@ -158,6 +158,10 @@
         margin-top: -5px;
     }
 
+}
+
+@media screen and (max-width: 640px) {
+    
     /*===== final section =====*/
 
     #final-section {
@@ -254,5 +258,4 @@
     #copyrigth {
         margin: 0px 7px 0px 0px;
     }
-
 }
