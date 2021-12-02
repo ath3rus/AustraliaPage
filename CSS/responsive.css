@@ -246,13 +246,17 @@
         height: auto;
     }
 
-    #cprt-cont {
-        width: 100%;
+    #cprt-cont {display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blueviolet;
+        flex-wrap: nowrap;
+        width: 80%;
         font-size: .8em;
     }
 
     #copyrigth {
-        margin: 0px 7px 0px 0px;
+        margin: 5px;
     }
 
 }
