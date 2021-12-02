@@ -79,6 +79,10 @@
         font-size: 1.1em;
     }
 
+    #text-group h3 {
+        margin: 0px 7px;
+    }
+
     /*========== second-main =========*/
 
     #main-second-container {
@@ -113,12 +117,14 @@
     }
 
     #div-table {
+        width: 95%;
         height: auto;
     }
 
     #div-table table {
         width: 100%;
         height: auto;
+        margin-bottom: 5px;
     }
 
     /*====== travel-container =======*/
@@ -263,5 +269,39 @@
         padding: 10px;
         margin-right: 10px;
 
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #nav-menu-cont {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-height: none;
+    }
+
+    #nav-menu-list {
+        min-width: none;
+        width: 100%;
+    }
+
+    #nav-menu-list ul li a {
+        font-size: 6vw;
+        width: auto;
+    } 
+
+
+    /*================ cards cotainer =================*/ 
+
+    #cards-container {
+        height: auto;
+        flex-direction: column;
+    }
+
+
+    /*================ travel-container ============= */
+
+    .info-l {
+        font-size: .7em;
     }
 }

@@ -718,4 +718,9 @@ footer {
 #seta i {
     color: rgb(175, 175, 0);
     opacity: .5;
+    transition: .2s;
+}
+
+#seta i:hover {
+    transform: scale(1.3);
 }
