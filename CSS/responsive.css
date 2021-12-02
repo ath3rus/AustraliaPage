@@ -289,6 +289,37 @@
         font-size: 6vw;
         width: auto;
     } 
+/*================ Table ==============*/
+    #div-table table {
+        font-size: 1em;
+        max-width: 90%;
+        height: auto;
+        padding: 0;
+    }
+
+    #div-table {
+        min-width: none;
+        height: auto;
+    }
+    
+    #div-table table {
+        text-align: center;
+        border-collapse: collapse;
+        width: 80%;
+        min-width: none;
+        min-height: auto;
+        font-size: .9em;
+    }
+    
+    #div-table table tr {
+        line-height: 25px;
+    }
+    
+    #div-table table th, td{
+        padding: 0px 5px;
+        border: 2px solid white;
+    }
+    
 
 
     /*================ cards cotainer =================*/ 
