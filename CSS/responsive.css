@@ -158,6 +158,10 @@
         margin-top: -5px;
     }
 
+}
+
+@media screen and (max-width: 640px) {
+    
     /*===== final section =====*/
 
     #final-section {
@@ -246,17 +250,21 @@
         height: auto;
     }
 
+<<<<<<< HEAD
     #cprt-cont {display: flex;
         align-items: center;
         justify-content: center;
         background-color: blueviolet;
         flex-wrap: nowrap;
         width: 80%;
+=======
+    #cprt-cont {
+        max-width: 90%;
+>>>>>>> fix-section
         font-size: .8em;
     }
 
     #copyrigth {
         margin: 5px;
     }
-
 }

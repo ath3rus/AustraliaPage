@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -400,15 +404,15 @@ main{
     background: rgb(2,26,97);
     background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%);
     margin-top: 5px;
-    height: 100%;
+    height: auto;
 }
 
 #newslater {
-    background: linear-gradient(336deg, rgba(2, 26, 97, 0.432) 0%, rgba(0, 59, 88, 0.445) 20%); 
+    background: linear-gradient(336deg, rgba(2, 26, 97, 0.432) 0%, rgba(0, 59, 88, 0.445) 20%);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 65%;
+    height: 90%;
 }
 
 #newslater-text {
@@ -563,7 +567,7 @@ form input[type="text"], input[type="email"]:focus {
 footer {
     background: rgb(2,26,97);
     background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%); 
-    height: 33.9vh;
+    height: 100%;
 }
 
 #footer-main-container {
@@ -571,7 +575,7 @@ footer {
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    height: 99%;
+    height: 55%;
 }
 
 #links-uteis-container {
